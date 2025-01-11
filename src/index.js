@@ -6,11 +6,42 @@ let ab = "html technology";
 function App(){
   return(
     <>
-      {/* css types  */}
-      {/* inline css */}
-      <h1 style={{color:'red',border:'2px solid black'}}>welcome to my page</h1>
-      {/* external */}
-      <div className='box'></div>
+      {/* bootstrap in js */}
+      <div className='container'>
+        <div className='row'>
+          <div className='col-12'>
+            <h1 className='text-danger text-center mt-4 mb-4' >welcome</h1>
+          </div>
+          <div className='col-3'>
+            <div className='card'>
+              <div className='card-body'>
+                <img  src='logo192.png' className='img-fluid'/>
+              </div>
+            </div>
+          </div>
+          <div className='col-3'>
+            <div className='card'>
+              <div className='card-body'>
+                <img  src='logo192.png' className='img-fluid'/>
+              </div>
+            </div>
+          </div>
+          <div className='col-3'>
+            <div className='card'>
+              <div className='card-body'>
+                <img  src='logo192.png' className='img-fluid'/>
+              </div>
+            </div>
+          </div>
+          <div className='col-3'>
+            <div className='card'>
+              <div className='card-body'>
+                <img  src='logo192.png' className='img-fluid'/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
 
   )
